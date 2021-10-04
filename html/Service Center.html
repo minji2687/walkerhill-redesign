@@ -1,0 +1,587 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Service Center</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="../css/header.css" rel="stylesheet" type="text/css">
+<link href="../css/Service Center.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../js/jquery-ui.js"></script>
+<script type="text/javascript" src="../js/header.js"></script>
+<script type="text/javascript" src="../js/Service Center.js"></script>
+</head>
+
+
+<script>
+  $( function() {
+     $( "#datepicker" ).datepicker();
+	 $( "#datepicker01" ).datepicker();
+  } );
+</script>
+
+<body>
+	<div id="headerWrap">
+  <header>
+        <h1><a href="http://minji2688.dothome.co.kr/index.html"><img src="../images/main/logo.png" alt="그랜드 워커힐 서울 로고"></a></h1>
+        <div>
+            <p>KOR</p>
+   <ul>
+                <li class="login"><a href="#">로그인</a></li>
+                <li><a href="http://minji2688.dothome.co.kr/html/join.html">워커힐리워즈 가입</a></li>
+                <li><a href="http://minji2688.dothome.co.kr/html/my_reservation.html">예약확인</a></li>
+                <li><a href="http://minji2688.dothome.co.kr/html/Service Center.html">고객센터</a></li>
+            </ul>
+            <p><a href="#">RESERVATION</a></p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://minji2688.dothome.co.kr/html/brand.html">WELCOME</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/brand.html">BRAND</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/Service Center.html">고객센터</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/contact.html">오시는길</a></li>
+					</ul>
+				</li>
+                <li><a href="http://minji2688.dothome.co.kr/html/room_info.html">ROOMS</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/room_info.html">객실 종합안내</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_more.html">딜럭스</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_more02.html">클럼 딜럭스</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_more03.html">클럽 패밀리 딜럭스</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_more04.html">로얄 스위트</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_more05.html">애스톤 하우스</a></li>
+					</ul>
+				</li>
+                <li><a href="http://minji2688.dothome.co.kr/html/dining_info.html">DINING</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_info.html">다이닝 종합안내</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_more.html">온달</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_more02.html">명월관</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_more03.html">더뷔페</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_more04.html">더파빌리온</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_more05.html">더델리</a></li>
+					</ul>
+				</li>
+                <li><a href="http://minji2688.dothome.co.kr/html/membership_rewards.html">MEMBERSHIP</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/membership_rewards.html"><!-- WAKERHILL<br>--> REWARDS</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/membership_prestige club.html"><!--  WAKERHILL<br>--> PRESTIGE CLUB</a></li>
+					</ul>
+				</li>
+                <li><a href="http://minji2688.dothome.co.kr/html/facilities.html">FACILITIES</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/facilities.html">CONVENIENCES</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/facilities02.html">ACTIVITIES</a></li>
+					</ul>
+				</li>
+                <li><a href="http://minji2688.dothome.co.kr/html/room_offers02.html">OFFERS</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/room_offers02.html">DINING & EVENT</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_offers.html">ROOM OFFER</a></li>
+					</ul>
+				</li>
+            </ul>
+            
+        </nav>
+    </header>
+</div>
+
+<section id="mainPic">
+	<h1>
+		
+			<span>WELCOME</span>
+		
+	</h1>
+</section>
+
+
+
+<!--start!-->
+<h1 id="title">고객센터</h1>
+
+<div id="wrap">
+	<div>	
+		<ul>
+			<li><a href="#service01">자주하는 질문</a></li>
+			
+			<li><a href="#service02"> 워커힐 공지사항</a></li>
+
+		</ul>
+	</div>	
+
+		<article id="service01">
+			<h2>자주하는 질문</h2>
+			<p>호텔을 이용하시기 전 기본적인 궁금증을 해결해드립니다.</p>
+			
+			<dl class="acodi">	
+
+				<dt>질문 및 답변</dt>
+				<dd>
+					<dl>
+						<dt>
+							<dfn>객실</dfn>
+							
+							객실 내에 무료로 이용 가능한 비품에는 무엇이 있습니까?
+							
+							<span>
+								<img src="../images/Servicecenter/skip.png">
+							</span>
+						
+						</dt>
+						<dd>
+							<dfn>답변</dfn>
+							<span>생수 두 병, 샴푸, 린스, 샤워젤, 바디로션, 빗, 반짇고리, 샤워캡, 면봉, 화장솜, 드라이기, 다리미, 다림판, 녹차, 홍차, 전기 포트, 금고,
+							슬리퍼, 가운, 필기도구 등
+							</span>
+							<span>
+							- 가습기, DVD 플레이어 & CD 플레이어, 바둑판 등은 고객 센터로 연락 주시면 객실로 가져다 드립니다.
+							</span>
+							
+						</dd>
+					</dl>
+				</dd>
+
+			<!--한묶음!-->
+
+				<dd>
+					<dl>
+						<dt>
+							<dfn>객실</dfn>
+							
+							아기 침대가 준비됩니까?
+							
+							<span>
+								<img src="../images/Servicecenter/skip.png">
+							</span>
+						
+						</dt>
+						<dd>
+							<dfn>답변</dfn>
+							<span>
+								- 요청하시면 객실에 준비해드리며, 무료로 이용 가능합니다. 
+							</span>
+							<span>
+								- 수량이 한정되어 있으니 사전 문의 바랍니다.
+							</span>
+							
+						</dd>
+					</dl>
+				</dd>
+			<!--한묶음!-->
+				<dd>
+					<dl>
+						<dt>
+							<dfn>객실</dfn>
+							
+							체크인과 체크아웃 시간이 어떻게 됩니까?
+							
+							<span>
+								<img src="../images/Servicecenter/skip.png">
+							</span>
+						
+						</dt>
+						<dd>
+							<dfn>답변</dfn>
+							<span>
+								- 체크인 오후 3시 / 체크아웃 오후 12시
+							</span>
+			
+						</dd>
+					</dl>
+				</dd>
+			<!--한묶음!-->
+
+				<dd>
+					<dl>
+						<dt>
+							<dfn>레스토랑</dfn>
+							
+							복장에 대한 규정 및 제한이 있나요?
+							
+							<span>
+								<img src="../images/Servicecenter/skip.png">
+							</span>
+						
+						</dt>
+						<dd>
+							<dfn>답변</dfn>
+						
+							<span>
+							- 별도의 규정이나 제한은 없으나 트레이닝복, 슬리퍼 등과 같은 복장은 가급적 지양하여 주시기를 권합니다.
+							</span>
+							
+						</dd>
+					</dl>
+				</dd>
+
+			<!--한묶음!-->
+				
+				<dd>
+					<dl>
+						<dt>
+							<dfn>호텔전반</dfn>
+							
+							24시간 로비 모바일 충전소는 어디에 있나요?
+							
+							<span>
+								<img src="../images/Servicecenter/skip.png">
+							</span>
+						
+						</dt>
+						<dd>
+							<dfn>답변</dfn>
+							
+							<span>
+							- 호텔 로비의 누드 엘리베이터 측면에 모바일 충전소가 마련되어 있으며, 24시간 무료로 이용하실 수 있습니다.
+							</span>
+							
+						</dd>
+					</dl>
+				</dd>
+
+			<!--한묶음!-->
+
+				<dd>
+					<dl>
+						<dt>
+							<dfn>호텔전반</dfn>
+							
+							주차 요금은 얼마입니까?
+							
+							<span>
+								<img src="../images/Servicecenter/skip.png">
+							</span>
+						
+						</dt>
+						<dd>
+							<dfn>답변</dfn>
+							<span>
+								- 기본요금 30분당 3,000원 / 초과 10분당 1,000원 (세금 및 봉사료 포함)
+							</span>
+							<span>
+							- 호텔 이용 후 영수증 및 도장 확인 시, 객실 투숙 시, 리버파크 수영장 이용 시 무료
+							</span>
+							<span>
+							- 전 영업장 이용 시 4시간 무료
+							</span>
+						</dd>
+					</dl>
+				</dd>
+
+			<!--한묶음!-->
+				<dd>
+					<dl>
+						<dt>
+							<dfn>호텔전반</dfn>
+							
+							호텔 내 비즈니스 시설이 마련되어 있나요?
+							
+							<span>
+								<img src="../images/Servicecenter/skip.png">
+							</span>
+						
+						</dt>
+						<dd>
+							<dfn>답변</dfn>
+							<span>
+								- 최소 11명에서 최대 1,500명까지 수용 가능한 다양한 규모의 미팅룸을 보유하고 있습니다. 관련하여 상단의 MEETING 메뉴에서 세부적인 문의 가능합니다.
+							</span>
+							<span>
+							- 컴퓨터 이용을 원하실 경우 ‘워커힐 라이브러리’를 이용하시기 바랍니다.
+							</span>
+							
+						</dd>
+					</dl>
+				</dd>
+
+			<!--한묶음!-->
+				<dd>
+					<dl>
+						<dt>
+							<dfn>호텔전반</dfn>
+							
+							호텔 내 장애인용 편의시설이 있나요?
+							
+							<span>
+								<img src="../images/Servicecenter/skip.png">
+							</span>
+						
+						</dt>
+						<dd>
+							<dfn>답변</dfn>
+							<span>
+								- 호텔 주차장, 화장실, 엘리베이터 내 장애인 편의시설이 마련되어 있습니다.
+							</span>
+							
+						</dd>
+					</dl>
+				</dd>
+
+			<!--한묶음!-->
+
+				<dd>
+					<dl>
+						<dt>
+							<dfn>호텔전반</dfn>
+							
+							호텔 리무진은 어떻게 이용할 수 있습니까?
+							
+							<span>
+								<img src="../images/Servicecenter/skip.png">
+							</span>
+						
+						</dt>
+						<dd>
+							<dfn>답변</dfn>
+							<span>
+								- 호텔 리무진으로 공항 픽업 및 샌딩 서비스가 가능하며, 이용 요금(세금 및 봉사료 포함)은 다음과 같습니다.
+							</span>
+							<span>
+							: 인천 공항 픽업 서비스 160,000원 / 샌딩 서비스 150,000원 
+							</span>
+							<span>
+							: 김포 공항 픽업 서비스 100,000원 / 샌딩 서비스 90,000원
+							</span>
+							<span>
+							- 공항 이외 지역은 거리에 따라 요금이 차등 부과되오니, 컨시어지(02. 450. 4669)로 문의 바랍니다.
+							</span>
+
+						</dd>
+					</dl>
+				</dd>
+
+			<!--한묶음!-->
+				<dd>
+					<dl>
+						<dt>
+							<dfn>호텔전반</dfn>
+							
+							호텔 이용 시 직원에게 팁을 지불해야 합니까?
+							
+							<span>
+								<img src="../images/Servicecenter/skip.png">
+							</span>
+						
+						</dt>
+						<dd>
+							<dfn>답변</dfn>
+							<span>
+								- 우리 호텔은 팁을 받지 않습니다.
+							</span>
+							
+
+						</dd>
+					</dl>
+				</dd>
+
+			<!--한묶음!-->
+
+
+						
+			</dl>
+
+		</article>
+
+
+
+
+	
+
+
+<!--공지사항-->
+
+		<article id="service02">
+			<h2>공지사항</h2>
+			<p>워커힐의 공지사항 및 새로운 소식을 알려드립니다.</p>
+			
+			<dl>	
+				<span>등록일</span>
+				<dt>제목</dt>
+				<dd>
+					<dl>
+						<dt>
+							<dfn>2017-05-04</dfn>
+							
+							클럽층 리뉴얼 공사 안내
+							
+							<span>
+								<img src="../images/Servicecenter/skip.png">
+							</span>
+						
+						</dt>
+						<dd>
+							
+							<span>
+								그랜드 워커힐 서울 클럽을 사랑해 주신 고객 여러분께 진심으로 감사 드립니다.<br>
+
+								15~17 클럽층은 보다 나은 시설과 서비스를 위해 3개월 동안(4/3~6/30) 리뉴얼 공사를 시행합니다.
+							</span>
+							<span>
+								공사 작업으로 인해 객실 내 소음이 다소 발생할 수 있으며, 불편을 끼쳐 드려 죄송합니다.<br>
+
+								고객님의 깊은 양해 부탁 드리며, 더욱 편안하고 품격 있는 공간으로 고객 여러분을 찾아 뵙겠습니다.
+							</span>
+							<span>
+							공사 시간: 09:00~18:00
+							</span>
+						</dd>
+					</dl>
+				</dd>
+</dl>
+			</article>
+
+
+
+<!--modal-->
+
+
+<div id="login">
+    <div id="login_inner">
+    	<h1>MEMBERSHIP LOGIN</h1>
+   		 <form>
+            <p><input type="text"></p>
+			
+            <p><input type="text"></p>
+			<p><input type="button" value="로그인"></p>
+            
+            <p><label><input type="checkbox">아이디 기억하기</label></p>
+      	</form>
+		
+		
+			<p>
+				<a href="#">아이디&회원번호 찾기</a>
+				<a href="#">비밀번호 찾기</a>
+			
+			</p>
+		
+        <p class="close_btn"><img src="../images/main/closing_btn_01.png" alt="close button"></p>
+    </div>
+</div>
+
+
+<!--header 예약하기-->
+<div id="reservation_modal">
+	<section>
+    	<h1>RESERVATION</h1>
+        <h2>INSPIRING SENSES & TOUCHING PLACE</h2>
+        <form>
+        	<div>
+				<p>
+					<label>숙박기간
+						<input type="date">
+						<input type="date">
+					</label>
+				</p>
+                
+     			<div class="date">
+			
+                    <div id="datepicker">
+                    </div>
+               
+                
+                 
+                 
+                    <div id="datepicker01">
+                    </div>
+                </div>
+            
+				
+
+            </div>
+            <div>
+            	<p>
+                	<label>객실</label>
+                    <select>
+                    	<option>1개</option>
+                        <option>2개</option>
+                        <option>3개</option>
+                        <option>4개</option>
+                        <option>5개</option>
+                    </select>
+                 </p>
+                <p>
+                	<label>어른</label>
+                    <select>
+                    	<option>1명</option>
+                        <option>2명</option>
+                        <option>3명</option>
+                    </select>
+                </p>
+                <p>
+                	<label>아이</label>
+                   <select>
+                    	<option>0명</option>
+                        <option>1명</option>
+                        <option>2명</option>
+                    </select>
+                </p>
+                <p>
+              	  아이기준은 36개월~만12세 입니다.
+                </p>
+            </div>
+            <input type="submit" value="객실찾기">
+         
+        </form>
+       
+        <article>
+        	<h2>JOIN NOW!</h2>
+            <p>
+                회원만을 위한 차별화된 특전과 <br>
+                포인트 혜택을 제공하는 위커힐 무료 <br>
+                멤버쉽에 지금 가입하세요.
+            </p>
+            <p><a href="#">멤버쉽 가입하기</a></p>
+        </article>
+       <p class="close_btn"><img src="../images/main/closing_btn_02.png" alt="close button"></p>
+    </section>
+</div>
+
+
+
+<!--end!-->
+<div id="footerwrap">
+<footer>
+			<div>
+				<ul>
+					<li><a href="#">개인 정보처리방침</a></li>
+					<li><a href="#">이용약관</a></li>
+					<li><a href="http://minji2688.dothome.co.kr/html/contact.html">오시는길</a></li>
+					<li><a href="http://minji2688.dothome.co.kr/html/Service Center.html">고객의 소리</a></li>
+					<li><a href="#">인재채용</a></li>
+					<li><a href="#">사이트맵</a></li>
+					<li><a href="#">윤리경영</a></li>
+				</ul>
+			</div>
+			<div>
+				<p>
+					<adress> 04963) 서울특별시 광진구 워커힐로 177 (광장동)</adress> 대표이사 최신원, 박상규 개인정보 관리 책임자 김지은 팀장(브랜드마케팅팀) 통신판매 신고번호 제2015-서울광진-0710호 사업자등록번호 124-81-00718 법인명 SK네트웍스(주) 객실문의 02.2022.0000 레스토랑 예약 및 기타문의 02.455ct@walkerhill.com COPYRIGHT 2017 SK NETWORKS CO., LTD WALKERHILL ALL RIGHTS RESERVED.
+				</p>
+				<div>
+					<ul>
+						<li><a href="https://www.instagram.com/walkerhill_hotel/"><img src="../images/main/sns_01.png" alt="instagram"></a></li>
+						<li><a href="#"><img src="../images/main/sns_02.png" alt="twitter"></a></li>
+						<li><a href="https://www.facebook.com/grandwalkerhillseoul"><img src="../images/main/sns_03.png" alt="facebook"></a></li>
+					</ul>
+				
+					<form action="#" method="post">
+                        <fieldset>
+                            <legend class="hide">검색</legend>
+                            <select>
+                                    <option><a href="#">WALKERHILL</a></option>
+                                    <option><a href="#">VistaWalkerHillSeoul</a></option>
+                                    <option><a href="#">SK Speed</a></option>
+                                </select>
+                        </fieldset>
+					</form>
+				</div>
+			</div>
+	</footer>
+</div>
+
+
+
+
+</body>
+</html>

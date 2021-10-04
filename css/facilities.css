@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+button{cursor:pointer;}
+.clear{clear:both;position:inherit;}
+
+section#mainPic{	
+			width:100%;
+		
+			background:url(../images/facilities/h1.jpg)repeat-x center top fixed;
+			background-size:cover;					
+			position:relative;
+}
+section#mainPic>h1{
+		width:100%;
+		height:700px;
+		background:rgba(000,000,000,.5);	
+		z-index:1;
+}
+
+
+
+
+section#mainPic>h1>span{
+	position:absolute;
+	left:50%; top:50%;
+	margin-left:-192px; 
+	margin-top:40px; 
+	width:266px;
+	display:block;	
+	font-size:80px;
+	color:#fff;
+	text-align:center;
+	
+
+} 
+
+/*start!*/
+#warp {
+	width:1200px;
+	margin:0 auto;
+}
+
+#warp h1{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+	font-size:48px;
+	padding-bottom:40px;
+	background:url(../images/facilities/underline01.png) no-repeat center bottom;
+	margin-bottom:55px;
+	margin-top:111px;
+}
+
+#warp article{
+	
+	height:670px;
+	padding-bottom:54px;
+	border-bottom:1px solid #666;
+	margin-bottom:54px;
+
+}
+#warp article>p{
+	border:1px solid #666;
+	width:742px;
+	height:484px;
+	float:left;
+	
+}
+#warp article div{
+	float:right;
+	width:450px;
+	height:486px;
+	padding-top:70px;
+	padding-left:70px;
+	box-sizing:border-box;
+	
+}
+#warp article div h2{
+	font-size:46px;
+	margin-bottom:36px;
+
+}
+#warp article div p{
+	margin-bottom:18px;
+	line-height:22px;
+	font-size:14px;
+
+}
+#warp article div dl{
+	line-height:22px;
+	font-size:13px;
+}
+#warp article div dl dt{
+	float:left;
+	margin-right:18px;
+}
+#warp article ul{
+	width:1200px;
+
+	
+}
+#warp article ul li{
+	vertical-align:top;
+	width:386px;
+	height:161px;
+	margin-top:18px;
+	margin-right:18px;
+	float:left;
+	border:1px solid #666;
+}
+#warp article ul li:last-child{
+	margin-right:0;
+}
+
+#warp article:nth-of-type(2) p{
+	float:right;
+	width:742px;
+	height:484px;
+}
+#warp article:nth-of-type(2)>div{
+	float:left;
+	width:450px;
+	height:486px;
+	
+	padding-left:58px;
+	box-sizing:border-box;
+	
+}
+#warp article:nth-of-type(2) div p{
+	float:left;
+	width:326px;
+	height:120px;
+}
+
+#warp article:nth-of-type(2) div dl{
+	float:left;
+	width:100%;
+	height:60px;
+	margin-top:18px;
+	
+}
+#warp article:nth-of-type(3){
+	height:484px;
+	border:0;
+	
+}
+#warp article:nth-of-type(3) div{
+	padding-top:110px;
+}
+
+#warp article:nth-of-type(3) div p{
+	margin-bottom:36px;
+}
+/*end*/
+

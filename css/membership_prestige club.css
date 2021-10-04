@@ -1,0 +1,325 @@
+﻿@charset "utf-8";
+
+
+button{cursor:pointer;}
+.clear{clear:both;position:inherit;}
+.hide{display:none;}
+
+
+
+
+
+section#mainPic{	
+			width:100%;
+		
+			background:url(../images/membership_rewards/h1.jpg)repeat-x center top fixed;
+			background-size:cover;					
+			position:relative;
+}
+section#mainPic>h1{
+		width:100%;
+		height:700px;
+		background:rgba(000,000,000,.5);	
+		z-index:1;
+}
+
+
+
+
+section#mainPic>h1>span{
+	position:absolute;
+	left:50%; top:50%;
+	margin-left:-192px; 
+	margin-top:40px; 
+	width:266px;
+	display:block;	
+	font-size:80px;
+	color:#fff;
+	text-align:center;
+	
+
+} 
+/*start!*/
+#wrap {
+	width:1200px;
+	margin:0 auto;
+}
+
+#wrap>h1{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+	font-size:48px;
+	padding-bottom:40px;
+	background:url(../images/facilities/underline01.png) no-repeat center bottom;
+	margin-bottom:55px;
+	margin-top:111px;
+}
+    
+/*article start*/
+
+
+#wrap article{
+	width:1200px;
+	height:467px;
+	border:1px solid #ccc; 
+	background:url(../images/membership_rewards/membership_rewards_01.jpg) no-repeat left top; 
+}
+
+article dl{
+	width:793px;
+	height:468px;
+	float:right;
+	padding-top:69px;
+	padding-left:116px;
+	padding-right:111px;
+	box-sizing:border-box;
+}
+article dl dt{
+	font-size:38px;
+	margin-bottom:55px;
+}
+article dl dd{
+	font-size:14px;
+	margin-bottom:70px;
+	line-height:22px;
+}
+article dl dd:nth-of-type(2){
+	font-size:13px;
+	margin-bottom:47px;
+	line-height:22px;
+	padding-left:30px;
+	padding-bottom:10px;
+	background:url(../images/membership_prestigeclub/call.png)no-repeat left top;
+}
+article dl p{
+	width:168px;
+	height:37px;
+	float:left;
+	margin-right:22px;
+}
+article dl>p>a{
+	display:block;
+	width:100%;
+	height:100%;
+	background:#203756;
+	color:#fff;
+	line-height:37px;
+	text-align:center;
+	
+}
+article dl p:nth-of-type(2){
+	width:168px;
+	height:37px;
+	float:left;
+	margin-right:22px;	
+}
+article dl p:nth-of-type(2)>a{
+	display:block;
+	width:100%;
+	height:100%;
+	background:none;
+	border:1px solid #203756;
+	color:#203756;
+	line-height:37px;
+	text-align:center;
+	
+}
+
+
+
+/*article end*/
+
+
+#point section#point01{
+	width:1200px;
+	height:450px;
+	margin:0 auto;
+	border-bottom:1px solid #ccc;
+	padding-bottom:36px;
+	
+}
+#point{width:1200px; overflow:hidden;}
+#point h1{
+	width:1200px;
+	
+	margin:0 auto;
+	text-align:center;
+	font-size:32px;
+	margin-top:117px;
+	padding-bottom:72px;
+	border-bottom:1px solid #ccc;
+
+}
+#point section{overflow:hidden;}
+#point section h2{
+	font-size:24px;
+	width:136px;
+	height:241px;
+	padding-top:36px;
+	float:left;
+}
+#point section dl,section>figure{
+	width:819px;
+	float:right;
+	box-sizing:border-box;
+	margin-top:36px;
+	margin-left:245px;
+
+}
+
+/*안내사항*/
+#point section dl:nth-of-type(3){
+	border:1px solid #ccc;
+	padding-left:63px;
+	margin-top:36px;
+	padding-bottom:36px;
+	padding-right:90px;	
+	
+}
+#point section dl:nth-of-type(3) dt{
+	font-size:13px;
+	float:left;
+	border:none;
+	color:#203756;
+	margin-top:38px;
+	background:url(../images/membership_prestigeclub/alarm.png)no-repeat left top;
+	padding-left:28px;
+	height: 20px;
+	padding-top:0;
+	line-height:18px;
+	
+}
+#point section dl:nth-of-type(3) dd{
+
+	margin-top:36px;
+	margin-left:137px;
+	
+	
+}
+
+
+
+section#point>section:nth-of-type(2) dl{
+	border:1px solid #ccc;
+	padding-left:63px;
+	margin-top:36px;
+	padding-bottom:36px;
+	margin-bottom:56px;
+	
+}
+section#point>section:nth-of-type(2) dl dt{
+	font-size:13px;
+	float:left;
+	border:none;
+	color:#203756;
+	margin-top:38px;
+	background:url(../images/membership_prestigeclub/alarm.png)no-repeat left top;
+	padding-left:28px;
+	height: 20px;
+	padding-top:0;
+	line-height:18px;
+	
+	
+}
+
+section#point>section:nth-of-type(2) dl dd{
+
+	margin-top:36px;
+	margin-left:150px;
+	
+}
+
+/*안내사항 끝*/
+
+
+#point section dl dt,figcaption{
+	padding-top:36px;
+	font-size:18px;
+	margin-bottom:36px;
+	border-top:1px solid #ccc;
+	color:#9f584f;
+}
+
+#point section figcaption{
+	border:none;
+	padding:0;
+}
+#point section dl:nth-of-type(1) dt{
+	padding:0;
+	border:none;
+	
+		
+}
+#point section#point01 dl:nth-of-type(1){
+	
+	padding:0;
+	border:none;
+		
+}
+
+section#point>section:nth-of-type(1) dl:nth-of-type(1) dd ul,
+section#point>section:nth-of-type(1) dl:nth-of-type(2) dd ul{
+	column-count:2;
+
+	}
+
+#point section dl dd ul li{
+	list-style-type:disc;
+}
+
+#point section dl dd ul li,th,td{
+	font-size:13px;
+	line-height:22px;
+	vertical-align:middle;
+		
+}
+#point section table.big td{
+	padding-left:30px;
+		
+}
+
+#point>#point02>figure>.big{
+	width:819px;
+	height:630px;
+
+	
+}
+#point #point02 table.big table.small01{
+	width:551px;
+	height:74px;
+}
+#point #point02 table.big table.small02{
+	width:551px;
+	height:219px;
+	text-align:center;
+	
+}
+#point #point02 table.big table.small02 td{
+	padding:0;
+	
+}
+#point #point02 table.big table.small02 th{
+	width:144px;
+		
+}
+
+
+#point th,td{
+	border:1px solid #ccc;
+}
+#point>p{	margin-bottom:73px;
+width:auto;padding-left:381px;}
+#point>p>a{display:block;
+		width:287px;
+		height:36px;
+	margin:0 auto;
+		text-align:center;
+		background:#203756;
+		color:#fff;
+		clear:both;
+	
+		line-height:36px;	
+	}
+
+

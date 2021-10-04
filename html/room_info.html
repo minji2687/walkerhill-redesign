@@ -1,0 +1,310 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Room info</title>
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/jquery-ui.css" rel="stylesheet" type="text/css">
+<link href="../css/header.css" rel="stylesheet" type="text/css">
+<link href="../css/room_info.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../js/jquery-ui.js"></script>
+<script type="text/javascript" src="../js/header.js"></script>
+</head>
+
+
+<script>
+  $( function() {
+     $( "#datepicker" ).datepicker();
+	 $( "#datepicker01" ).datepicker();
+  } );
+</script>
+
+<body>
+	<div id="headerWrap">
+  <header>
+        <h1><a href="http://minji2688.dothome.co.kr/index.html"><img src="../images/main/logo.png" alt="그랜드 워커힐 서울 로고"></a></h1>
+        <div>
+            <p>KOR</p>
+            <ul>
+                <li class="login"><a href="#">로그인</a></li>
+                <li><a href="http://minji2688.dothome.co.kr/html/join.html">워커힐리워즈 가입</a></li>
+                <li><a href="http://minji2688.dothome.co.kr/html/my_reservation.html">예약확인</a></li>
+                <li><a href="http://minji2688.dothome.co.kr/html/Service Center.html">고객센터</a></li>
+            </ul>
+            <p><a href="#">RESERVATION</a></p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="http://minji2688.dothome.co.kr/html/brand.html">WELCOME</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/brand.html">BRAND</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/Service Center.html">고객센터</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/contact.html">오시는길</a></li>
+					</ul>
+				</li>
+                <li><a href="http://minji2688.dothome.co.kr/html/room_info.html">ROOMS</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/room_info.html">객실 종합안내</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_more.html">딜럭스</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_more02.html">클럼 딜럭스</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_more03.html">클럽 패밀리 딜럭스</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_more04.html">로얄 스위트</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_more05.html">애스톤 하우스</a></li>
+					</ul>
+				</li>
+                <li><a href="http://minji2688.dothome.co.kr/html/dining_info.html">DINING</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_info.html">다이닝 종합안내</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_more.html">온달</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_more02.html">명월관</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_more03.html">더뷔페</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_more04.html">더파빌리온</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/dining_more05.html">더델리</a></li>
+					</ul>
+				</li>
+                <li><a href="http://minji2688.dothome.co.kr/html/membership_rewards.html">MEMBERSHIP</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/membership_rewards.html"><!-- WAKERHILL<br>--> REWARDS</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/membership_prestige club.html"><!--  WAKERHILL<br>--> PRESTIGE CLUB</a></li>
+					</ul>
+				</li>
+                <li><a href="http://minji2688.dothome.co.kr/html/facilities.html">FACILITIES</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/facilities.html">CONVENIENCES</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/facilities02.html">ACTIVITIES</a></li>
+					</ul>
+				</li>
+                <li><a href="http://minji2688.dothome.co.kr/html/room_offers02.html">OFFERS</a>
+					<ul class="subnav">
+						<li><a href="http://minji2688.dothome.co.kr/html/room_offers02.html">DINING & EVENT</a></li>
+						<li><a href="http://minji2688.dothome.co.kr/html/room_offers.html">ROOM OFFER</a></li>
+					</ul>
+				</li>
+            </ul>
+            
+        </nav>
+    </header>
+</div>
+
+<section id="mainPic">
+	<h1>
+		
+			<span>ROOMS</span>
+		
+	</h1>
+</section>
+
+<section id="diningWrap">
+	<h1>객실종합안내</h1>
+	<article>
+			<dl>
+				<dt>DELUXE</dt>
+				<dd>
+					딜럭스 룸은 창 밖으로 펼쳐지는 한강과 아차산의 수려한 경관을 조망할 수 있어 상쾌함과 편안함을 선사합니다.
+				</dd>
+				<dd>
+					위치:호텔 3층~11층 (360실)
+				</dd>
+			</dl>
+			<p><a href="http://minji2688.dothome.co.kr/html/room_more.html">more</a></p>	
+	</article>
+	<article>
+			<dl>
+				<dt>Club Deluxe</dt>
+				<dd>
+					클럽 딜럭스 룸은 안락한 분위기의 품격 있는 공간으로 편안한 휴식을 선사합니다. 클럽 라운지에서는 호텔 수석 조리장이 준비한 조식과 해피아워 서비스를 즐기실 수 있습니다.
+				</dd>
+				<dd>위치 : 호텔 12층에서 16층 (61실)</dd>
+			</dl>
+			<p><a href="http://minji2688.dothome.co.kr/html/room_more02.html">more</a></p>	
+	</article>
+	<article>
+			<dl>
+				<dt>Club Family Suite</dt>
+				<dd>
+					클럽 패밀리 스위트 룸은 가족 단위 고객이 편안히 묵으실 수 있도록 퀸베드와 싱글베드가 비치되어 있습니다. 안락하고 품격있는 공간에서 여유로운 휴식을 경험하실 수 있습니다.
+				</dd>
+				<dd>위치 : 호텔 14층 (20실)</dd>
+			</dl>
+			<p><a href="http://minji2688.dothome.co.kr/html/room_more03.html">more</a></p>	
+	</article>
+	<article>
+			<dl>
+				<dt>Royal Suite</dt>
+				<dd>
+					로얄 스위트 룸은 본관 객실 중 가장 품격 있는 객실로, 최상의 서비스를 제공합니다. 토파즈, 오팔, 아메시스트, 다이아몬드 룸에서 안락한 휴식과 여유를 즐기실 수 있습니다.
+				</dd>
+				<dd>위치 : 호텔 17층</dd>
+			</dl>
+			<p><a href="http://minji2688.dothome.co.kr/html/room_more04.html">more</a></p>	
+	</article>
+ 	<article>
+			<dl>
+				<dt>Aston House</dt>
+				<dd>
+					지코뱅 스타일로 화려한 아름다움과 클래식한 품격이 느껴지는 애스톤 하우스는 17세기 영국 왕실 맨션의 이미지를 기본으로, 이국적인 정취와 한국적인 아름다움이 살아있는 특별한 공간입니다.
+				</dd>
+				<dd>
+					위치 : 별채
+				</dd>
+			</dl>
+			<p><a href="http://minji2688.dothome.co.kr/html/room_more05.html">more</a></p>	
+	</article>   
+ 
+</section>
+
+
+<!--modal-->
+
+
+<div id="login">
+    <div id="login_inner">
+    	<h1>MEMBERSHIP LOGIN</h1>
+   		 <form>
+            <p><input type="text"></p>
+			
+            <p><input type="text"></p>
+			<p><input type="button" value="로그인"></p>
+            
+            <p><label><input type="checkbox">아이디 기억하기</label></p>
+      	</form>
+		
+		
+			<p>
+				<a href="#">아이디&회원번호 찾기</a>
+				<a href="#">비밀번호 찾기</a>
+			
+			</p>
+		
+        <p class="close_btn"><img src="../images/main/closing_btn_01.png" alt="close button"></p>
+    </div>
+</div>
+
+
+
+<!--header 예약하기-->
+<div id="reservation_modal">
+	<section>
+    	<h1>RESERVATION</h1>
+        <h2>INSPIRING SENSES & TOUCHING PLACE</h2>
+        <form>
+        	<div>
+				<p>
+					<label>숙박기간
+						<input type="date">
+						<input type="date">
+					</label>
+				</p>
+                
+     			<div class="date">
+			
+                    <div id="datepicker">
+                    </div>
+               
+                
+                 
+                 
+                    <div id="datepicker01">
+                    </div>
+                </div>
+            
+				
+
+            </div>
+            <div>
+            	<p>
+                	<label>객실</label>
+                    <select>
+                    	<option>1개</option>
+                        <option>2개</option>
+                        <option>3개</option>
+                        <option>4개</option>
+                        <option>5개</option>
+                    </select>
+                 </p>
+                <p>
+                	<label>어른</label>
+                    <select>
+                    	<option>1명</option>
+                        <option>2명</option>
+                        <option>3명</option>
+                    </select>
+                </p>
+                <p>
+                	<label>아이</label>
+                   <select>
+                    	<option>0명</option>
+                        <option>1명</option>
+                        <option>2명</option>
+                    </select>
+                </p>
+                <p>
+              	  아이기준은 36개월~만12세 입니다.
+                </p>
+            </div>
+            <input type="submit" value="객실찾기">
+         
+        </form>
+       
+        <article>
+        	<h2>JOIN NOW!</h2>
+            <p>
+                회원만을 위한 차별화된 특전과 <br>
+                포인트 혜택을 제공하는 위커힐 무료 <br>
+                멤버쉽에 지금 가입하세요.
+            </p>
+            <p><a href="#">멤버쉽 가입하기</a></p>
+        </article>
+       <p class="close_btn"><img src="../images/main/closing_btn_02.png" alt="close button"></p>
+    </section>
+</div>
+
+
+<!--footer-->
+
+<div id="footerwrap">
+	<footer>
+			<div>
+				<ul>
+					<li><a href="#">개인 정보처리방침</a></li>
+					<li><a href="#">이용약관</a></li>
+					<li><a href="http://minji2688.dothome.co.kr/html/contact.html">오시는길</a></li>
+					<li><a href="http://minji2688.dothome.co.kr/html/Service Center.html">고객의 소리</a></li>
+					<li><a href="#">인재채용</a></li>
+					<li><a href="#">사이트맵</a></li>
+					<li><a href="#">윤리경영</a></li>
+				</ul>
+			</div>
+			<div>
+				<p>
+					<adress> 04963) 서울특별시 광진구 워커힐로 177 (광장동)</adress> 대표이사 최신원, 박상규 개인정보 관리 책임자 김지은 팀장(브랜드마케팅팀) 통신판매 신고번호 제2015-서울광진-0710호 사업자등록번호 124-81-00718 법인명 SK네트웍스(주) 객실문의 02.2022.0000 레스토랑 예약 및 기타문의 02.455ct@walkerhill.com COPYRIGHT 2017 SK NETWORKS CO., LTD WALKERHILL ALL RIGHTS RESERVED.
+				</p>
+				<div>
+					<ul>
+						<li><a href="https://www.instagram.com/walkerhill_hotel/"><img src="../images/main/sns_01.png" alt="instagram"></a></li>
+						<li><a href="#"><img src="../images/main/sns_02.png" alt="twitter"></a></li>
+						<li><a href="https://www.facebook.com/grandwalkerhillseoul"><img src="../images/main/sns_03.png" alt="facebook"></a></li>
+					</ul>
+				
+					<form action="#" method="post">
+                        <fieldset>
+                            <legend class="hide">검색</legend>
+                            <select>
+                                    <option><a href="#">WALKERHILL</a></option>
+                                    <option><a href="#">VistaWalkerHillSeoul</a></option>
+                                    <option><a href="#">SK Speed</a></option>
+                                </select>
+                        </fieldset>
+					</form>
+				</div>
+			</div>
+	</footer>
+</div>
+
+
+
+
+</body>
+</html>

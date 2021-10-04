@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+
+button{cursor:pointer;}
+.clear{clear:both;position:inherit;}
+.hide{display:none;}
+
+
+
+section#mainPic{	
+			width:100%;
+			background:url(../images/my_reservation/h1.jpg) repeat-x center center;
+			background-size:cover;					
+			position:relative;
+}
+section#mainPic>h1{
+		width:100%;
+		height:700px;
+		background:rgba(000,000,000,.5);	
+		z-index:1;
+}
+
+
+
+
+section#mainPic>h1>span{
+	position:absolute;
+	left:50%; top:50%;
+	margin-left:-192px; 
+	margin-top:40px; 
+	width:266px;
+	display:block;	
+	font-size:80px;
+	color:#fff;
+	text-align:center;
+	
+
+} 
+/*start!*/
+
+#Wrap>h1{
+	width:1200px;
+	margin:0 auto;
+	padding-top:112px;
+
+	padding-bottom:40px;
+	margin-bottom:55px;
+	font-size:44px;
+	text-align:center;	
+	background:url(../images/room_info/underline01.png) no-repeat center bottom;
+}
+
+#Wrap>section.map{
+	width:100%;
+	height:694px;
+	position:relative;
+	border:none;
+}
+
+#Wrap article{
+	width:345px;
+	height:181px;
+	position:absolute;
+	top:68px;
+	left:78px;
+	background:#fff;
+	padding-top:36px;
+	padding-left:36px;
+	box-sizing:border-box;
+
+}
+#Wrap article dl{
+	width:100%;
+	float:right;
+	
+}
+#Wrap article dl dt{
+	font-size:14px;
+	float:left;
+	width:78px;
+	margin-bottom:18px;
+	
+}
+#Wrap article dl dd{
+	font-size:14px;
+	margin-bottom:18px;
+	
+
+}
+#Wrap article dl:nth-of-type(2) dd{
+	
+	line-height:22px;
+
+}
+#Wrap article>p{
+	display:inline-block;
+	width:106px;
+	height:29px;
+	text-align:center;
+	line-height:29px;
+	border-radius:15px 15px;
+	border:1px solid #666;
+	font-size:14px;
+	color:#666;
+	
+	
+}
+/*article end*/
+
+
+
+/*section*/
+#Wrap section{
+	width:100%;
+	border-bottom:1px solid #ccc;
+
+}
+#Wrap section div{
+	width:1200px;
+	margin:0 auto;
+	padding-top:54px;
+}
+#Wrap section:nth-of-type(2) div{
+	height:320px;
+}
+#Wrap section:nth-of-type(3) div{
+	height:162px;
+}
+#Wrap section:nth-of-type(4) div{
+	height:644px;
+}
+#Wrap div h2{
+	width:50%;
+	font-size:24px;
+	padding-bottom:18px;
+	float:left;
+
+}
+#Wrap div:nth-of-type(1) h2{
+	width:50%;
+	font-size:24px;
+	padding-bottom:18px;
+	float:left;
+
+}
+#Wrap div p{
+	width:50%;
+	height:18px;
+	font-size:14px;
+	color:#666;
+
+}
+#Wrap div dl{
+	width:50%;
+	height:50%;
+	float:right;
+	background:url(../images/contact/contact_01.png)no-repeat left top;
+	padding-left:73px;
+	box-sizing:border-box;
+
+}
+#Wrap section:nth-of-type(2) div dl:nth-of-type(2){
+	margin-top:11px;
+	margin-left:50%;
+	background:url(../images/contact/contact_02.png)no-repeat left top;
+}
+#Wrap section:nth-of-type(3) div dl{
+	margin-top:-25px;
+	margin-left:50%;
+	background:url(../images/contact/contact_03.png)no-repeat left top;
+}
+#Wrap div dl dt{
+	
+	font-size:18px;
+	margin-bottom:18px;
+	color:#444;
+	font-weight:bold;
+}
+#Wrap div dl dd{
+	
+	font-size:13px;
+	color:#666;
+
+}
+
+#Wrap section:nth-of-type(4) div p{
+	
+	font-size:14px;
+	margin-bottom:135px;
+
+
+}
+#Wrap section:nth-of-type(4) div p:nth-of-type(2),p:nth-of-type(3){
+	width:50%;
+	float:left;
+
+
+}
+#Wrap section:nth-of-type(4) div p:nth-of-type(3){
+	margin-top:8px;
+}
+#Wrap section:nth-of-type(4) div p span{
+	width:100%;
+	float:left;
+	margin-bottom:47px;
+	font-size:18px;
+	color:#666;
+	font-weight:bold;
+}
+#Wrap section:nth-of-type(4) div p img{
+	float:left;
+}
+
+
+.blue{
+	color:#203756;
+	font-weight:bold;
+}
+.red{
+	color:#9f584f;
+	font-weight:bold;
+}
+
+
+
+
